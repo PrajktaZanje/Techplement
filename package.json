@@ -1,0 +1,12 @@
+{
+  "name": "quote-of-the-day",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm run start-frontend\" \"npm run start-backend\"",
+    "start-frontend": "npm start --prefix quote-of-the-day-frontend",
+    "start-backend": "node quote-of-the-day-backend/server.js"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

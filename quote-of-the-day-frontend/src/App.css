@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 1em;
+  margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+  h1 {
+      font-size: 2em;
+  }
+
+  p {
+      font-size: 1.2em;
+  }
+
+  button {
+      font-size: 1em;
+  }
+
+  input {
+      font-size: 0.8em;
+  }
+}
